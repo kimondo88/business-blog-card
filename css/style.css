@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&:wght@200;400;500&display=swap');
+
+* {box-sizing: border-box}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F2F5F9;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+img{
+    margin-top: 1rem;
+    margin-inline: 1rem;
+    border-radius: 15px;
+    max-width: 90%;
+}
+
+.relative{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 80vw;
+    height: auto;
+}
+
+.title {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.body {
+    margin-top: .375rem;
+    font-size: 0.875rem;
+    color: #677489;
+}
+
+.smalltext {
+    grid-area: smalltext;
+}
+
+.smalltext-2{
+    grid-area: smalltext2;  
+}
+
+.img-small{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    grid-area: img;  
+}
+
+.pad-inline{
+    padding-inline: 1rem;
+}
+
+.card{
+    background-color: #FFFFFF;
+    margin-inline: 15%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 20px;
+}
+
+.card p, h1{
+    padding-inline: 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template:
+    'img smalltext smalltext smalltext'
+    'img smalltext2 smalltext2 smalltext2' ;
+}
+
+@media only screen and (min-width: 900px) {
+ .card{
+    margin-block: 15%;
+    margin-inline: auto;
+    max-width: 25%;
+}
+
