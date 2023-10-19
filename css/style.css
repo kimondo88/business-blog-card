@@ -36,6 +36,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 1.5rem;
+    color: #111729;
 }
 
 .body {
@@ -49,6 +50,7 @@ body {
     padding-left: 1rem;
     font-weight: 800;
     text-align: left;
+    color: #111729;
 }
 
 .smalltext-2{
@@ -67,9 +69,10 @@ body {
 }
 
 .img-small{
-    max-width: 35px;
-    max-height: 35px;
+    max-width: 45px;
+    max-height: 45px;
     border-radius: 50%;
+    border: #F2F5F9 4px solid;
 }
 
 .pad-inline{
